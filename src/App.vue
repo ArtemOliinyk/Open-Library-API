@@ -19,11 +19,11 @@
           <textarea class="form-control" id="badge" cols="10" rows="3" v-model="formData.badge"></textarea>
         </div>
         <div class="form-group">
-          <label for="book"> Your book ISBN ( like 0201558025, 0789312239)</label>
+          <label for="book"> My book ISBN ( like 0201558025, 0789312239)</label>
           <input type="text" id="book" class="form-control" placeholder="book" v-model="formData.bookIsbn">
         </div>
         <div class="form-group">
-          <label for="techno"> Your technologies (through "," )</label>
+          <label for="techno"> My technologies (through "," )</label>
           <input type="text" id="techno" class="form-control" placeholder="techno" v-model="formData.techno">
         </div>
 
